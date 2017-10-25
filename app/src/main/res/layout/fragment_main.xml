@@ -1,0 +1,91 @@
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryLight"
+>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="100dp">
+
+    <include layout="@layout/main_header"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/layoutWhite"
+        android:layout_marginTop="@dimen/card_vertical_margin">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Popular Destinations"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Show All"
+                android:textSize="12dp"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/orange"
+                android:layout_marginRight="5dp"
+                />
+        </RelativeLayout>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_destinations"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/home_list_height"
+            ></android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/layoutWhite"
+        android:layout_marginTop="@dimen/card_vertical_margin">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Popular Packages"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Show All"
+                android:textSize="12dp"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/orange"
+                android:layout_marginRight="5dp"
+                />
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_packages"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/home_list_height"
+            ></android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+</android.support.v4.widget.NestedScrollView>

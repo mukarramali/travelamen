@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/card_padding">
+<ImageView
+    android:id="@+id/im_icon"
+    android:layout_width="@dimen/card_list_size"
+    android:layout_height="@dimen/card_list_size"
+    android:src="@drawable/travelamen_ph"
+    android:background="@color/grey2"/>
+<TextView
+    android:id="@+id/title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Title"
+    android:textSize="15dp"
+    android:layout_marginTop="5dp"/>
+</LinearLayout>

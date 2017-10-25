@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SampleVideoPlayer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="sPrefs">TravelAmenSprefs</string>
+    <string name="local_host">localhost</string>
+    <string name="facebook_app_id">201103943715544</string>
+    <string name="instagram_access_token">1445155300.1677ed0.5f2685127ad640d283081e89ed637fc9</string>
+    <string name="instagram_client_id">9ce3b5a8bdee4856865200552f4b628b</string>
+    <string name="instagram_client_secret">ad31c56c0fa6457789984a4fd2b82952</string>
+    <string name="longtext">Login Review  When you implement Facebook Login, your app can optionally ask someone for permissions on a subset of that person\'s data.  If your app asks for more than public_profile, email and user_friends, Facebook must review it before you release it. Learn more about the review process and what\'s required to pass review.</string>
+    <string name="player_error">Lets try again few minutes later.</string>
+</resources>

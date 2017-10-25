@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "395781695373",
+    "project_id": "travelamen"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395781695373:android:2ae7b8292b6eef6b",
+        "android_client_info": {
+          "package_name": "prashushi.travelamen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395781695373-bkvn9slb5s09kegb4f3s0dhsfcikvj1t.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "395781695373-uthn96jh6ejdi4nrbe680pq4ibg1fn2u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "prashushi.travelamen",
+            "certificate_hash": "a1e899b3eddea208a7c3f4ca66a5e106a2c547dc"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC29Z_oJIi2nFbknGjDi4ZZ333ud6jCsdw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
